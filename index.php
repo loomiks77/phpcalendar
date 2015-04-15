@@ -19,29 +19,19 @@
     <tbody>
         <tr>
             <td>08:00</td>
-
             <td class=" no-events" rowspan="1"></td>
-
             <td class=" no-events" rowspan="1"></td>
-
             <td class=" no-events" rowspan="1"></td>
-
             <td class=" no-events" rowspan="1"></td>
-
             <td class=" no-events" rowspan="1"></td>
 
         </tr>
         <tr>
             <td>08:30</td>
-
             <td class=" no-events" rowspan="1"></td>
-
             <td class=" no-events" rowspan="1"></td>
-
             <td class=" no-events" rowspan="1"></td>
-
             <td class=" no-events" rowspan="1"></td>
-
             <td class=" no-events" rowspan="1"></td>
 
         </tr>
@@ -61,15 +51,10 @@
         </tr>
         <tr>
             <td>09:30</td>
-
             <td class=" no-events" rowspan="1"></td>
-
             <td class=" no-events" rowspan="1"></td>
-
             <td class=" no-events" rowspan="1"></td>
-
             <td class=" no-events" rowspan="1"></td>
-
             <td class=" no-events" rowspan="1"></td>
 
         </tr>
