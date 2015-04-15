@@ -209,23 +209,16 @@
  
         <tr>
             <td>17:30</td>
-
             <td class=" no-events" rowspan="1"></td>
-
         </tr>
+
         <tr>
             <td>18:00</td>
-
             <td class=" no-events" rowspan="1"></td>
-
             <td class=" no-events" rowspan="1"></td>
-
             <td class=" no-events" rowspan="1"></td>
-
             <td class=" no-events" rowspan="1"></td>
-
             <td class=" no-events" rowspan="1"></td>
-
         </tr>
 
     </tbody>
