@@ -191,7 +191,7 @@
 
             <td id=" has-events" rowspan="3">
                 <div id="details" style="width: 99%; height: 100%;">
-                    <span id="title">Software Engineering</span> <span id="lecturer"><a>Course
+                    <span id="title"><?php echo 'Software Engineering'; ?></span> <span id="lecturer"><a>Course
                             Director <span id="location">Sigma</span>
                 </div>
             </td>
@@ -223,9 +223,11 @@
 	    </tbody>
 
 	</div>
+
 	<footer id="the_footer">
 			Copyright Matt&Michael 2015
 	</footer>
 </div>
+
 </body>
 </html> 
