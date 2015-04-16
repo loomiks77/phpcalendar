@@ -98,4 +98,5 @@ span a{
 #weeknames{
 	font: bold 16px Tahoma;
 	color: black;
+	padding: 5px;
 }

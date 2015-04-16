@@ -44,14 +44,14 @@
  		<tr>
             <td>10:00</td>
             <td id="has-events" rowspan="3">
-                <div id="details" style="width: 99%; height: 100%;">
+                <div id="details" style="width: 99%; height: 96%;">
                     <span id="title">Programming</span> <span id="lecturer"><a>James
                             Shuttleworth</a></span> <span id="location">Sigma</span>
                 </div>
             </td>
 
             <td id="has-events" rowspan="3">
-                <div id="details" style="width: 99%; height: 100%;">
+                <div id="details" style="width: 99%; height: 96%;">
                     <span id="title">Software Engineering</span> <span id="lecturer"><a>Course
                             Director <span id="location">Sigma</span>
                 </div>
@@ -59,7 +59,7 @@
 
             <td id="no-events" rowspan="1"></td>
             <td id="has-events" rowspan="3">
-                <div id="details" style="width: 99%; height: 100%;">
+                <div id="details" style="width: 99%; height: 96%;">
                     <span id="title">Data information Retrieval</span> <span id="lecturer"><a>Reda
                             Something</a></span> <span id="location">Sigma</span>
                 </div>
@@ -99,14 +99,14 @@
  		<tr>
             <td>12:00</td>
             <td id="has-events" rowspan="3">
-                <div id="details" style="width: 99%; height: 100%;">
+                <div id="details" style="width: 99%; height: 96%;">
                     <span id="title">Data information Retrieval</span> <span id="lecturer"><a>Reda
                             Something</a></span> <span id="location">Sigma</span>
                 </div>
             </td>
 
             <td id="has-events" rowspan="3">
-                <div id="details" style="width: 99%; height: 100%;">
+                <div id="details" style="width: 99%; height: 96%;">
                     <span id="title">Software Engineering</span> <span id="lecturer"><a>Course
                             Director <span id="location">Sigma</span>
                 </div>
@@ -148,7 +148,7 @@
             <td id="no-events" rowspan="1"></td>
             <td id="no-events" rowspan="1"></td>
             <td id="has-events" rowspan="3">
-                <div id="details" style="width: 99%; height: 100%;">
+                <div id="details" style="width: 99%; height: 96%;">
                     <span id="title">Data information Retrieval</span> <span id="lecturer"><a>Reda
                             Something</a></span> <span id="location">Sigma</span>
                 </div>
@@ -156,7 +156,7 @@
 
             <td id="no-events" rowspan="1"></td>
             <td id="has-events" rowspan="3">
-                <div id="details" style="width: 99%; height: 100%;">
+                <div id="details" style="width: 99%; height: 96%;">
                     <span id="title">Software Engineering</span> <span id="lecturer"><a>Course
                             Director <span id="location">Sigma</span>
                 </div>
@@ -193,28 +193,28 @@
         <tr>
             <td>16:00</td>
             <td id="has-events" rowspan="3">
-                <div id="details" style="width: 99%; height: 100%;">
+                <div id="details" style="width: 99%; height: 96%;">
                     <span id="title">Data information Retrieval</span> <span id="lecturer"><a>Reda
                             Something</a></span> <span id="location">Sigma</span>
                 </div>
             </td>
 
             <td id="has-events" rowspan="3">
-                <div id="details" style="width: 99%; height: 100%;">
+                <div id="details" style="width: 99%; height: 96%;">
                     <span id="title">Programming</span> <span id="lecturer"><a>James
                             Shuttleworth</a></span> <span id="location">Sigma</span>
                 </div>
             </td>
 
             <td id="has-events" rowspan="3">
-                <div id="details" style="width: 99%; height: 100%;">
+                <div id="details" style="width: 99%; height: 96%;">
                     <span id="title">Programming</span> <span id="lecturer"><a>James
                             Shuttleworth</a></span> <span id="location">Sigma</span>
                 </div>
             </td>
 
             <td id="has-events" rowspan="3">
-                <div id="details" style="width: 99%; height: 100%;">
+                <div id="details" style="width: 99%; height: 96%;">
                     <span id="title"><?php echo 'Software Engineering'; ?></span> <span id="lecturer"><a>Course
                             Director <span id="location">Sigma</span>
                 </div>
