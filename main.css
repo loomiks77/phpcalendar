@@ -1,68 +1,101 @@
-table.calendar {
-    margin-bottom: 0;
+*{
+	margin: 0px;
+	padding: 0px;
 }
+h1{
+	font: bold 20px Tahoma;
+}
+h2{
+	font: bold 12px Tahoma;
+}
+header, section, footer, aside, nav, article, hgroup{
+	display:block;
+}
+body{
+	text-align:center;
+}
+table{
+	margin-bottom: 0;
+}
+th{
+	text-align: center;
+	background-color: whiteSmoke;
+	border: 0;
+	font: bold 12px Tahoma;
 
-table.calendar > thead > tr > th {
+}
+td{
+	height: 20px;
+	border: 0;
+	background-color: whiteSmoke;
+	//color: white;
+    cursor: pointer;
+    padding: 0;
+    border-radius: 4px;
+//  font: bold 12px Tahoma;
+
+}
+span{
+	display: block;
     text-align: center;
 }
-
-table.calendar > tbody > tr > td {
-    height: 20px;
+span a{
+	color: white;		
 }
+#big_wrapper{
 
-table.calendar > tbody > tr > td > div {
-    //padding: 8px;
-    height: 40px;
-    overflow: hidden;
-    display: inline-block;
-    vertical-align: middle;
-    float: left;
 }
-
-table.calendar > tbody > tr > td.has-events {
-    color: white;
+#top_header{
+	//background:yellow;
+	//border: 1px solid black;
+	padding: 20px;
+}
+#calendar_table{
+	margin-bottom: 0;
+}
+#has-events{
+	color: white;
     cursor: pointer;
     padding: 0;
     border-radius: 4px;
 }
-
-table.calendar > tbody > tr > td.has-events > div {
+#details{
+	height: 40px;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    float: left;
     background-color: #08C;
     border-left: 1px solid white;
+   // opacity: 0.8;
 }
+#no-events{
 
-table.calendar > tbody > tr > td.has-events > div:first-child {
-    border-left: 0;
-    margin-left: 1px;
 }
+#title{
+	//font-weight: bold;
+	font: 16px Tahoma;
+	color: white;
+}
+#lecturer{
+	font: 12px Tahoma;
+	color: white;
+}
+#location{
+	font: 12px Tahoma;
+	color: white;
+}
+#the_footer{
+	clear:both;
+	text-align: center;
+	padding: 20px;
+	//border-top: 2px solid gray;
+	//font: bold 12px Tahoma;
+	position:absolute;
+    bottom:0;
 
-table.calendar > tbody > tr > td.has-events > div.practice {
-    opacity: 0.7;
 }
-table.calendar > tbody > tr > td.conflicts > div > span.title {
-    //color: red;
-}
-table.calendar > tbody > tr > td.max-conflicts > div {
-    background-color: red;
-    color: white;
-}
-
-table.calendar > tbody > tr > td.has-events > div > span {
-    display: block;
-    text-align: center;
-}
-table.calendar > tbody > tr > td.has-events > div > span a {
-    color: white;
-}
-
-table.calendar > tbody > tr > td.has-events > div > span.title {
-    font-weight: bold;
-}
-
-table.table-borderless > thead > tr > th, table.table-borderless > tbody > tr > td {
-    border: 0;
-}
-
-.table tbody tr.hover td, .table tbody tr.hover th {
-    background-color: whiteSmoke;
+#weeknames{
+	font: bold 16px Tahoma;
+	color: black;
 }
