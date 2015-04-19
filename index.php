@@ -43,14 +43,14 @@
 
  		<tr>
             <td>10:00</td>
-            <td id="has-events" rowspan="3">
+            <td id="has-events" rowspan="2">
                 <div id="details" style="width: 99%; height: 96%;">
                     <span id="title">Programming</span> <span id="lecturer"><a>James
                             Shuttleworth</a></span> <span id="location">Sigma</span>
                 </div>
             </td>
 
-            <td id="has-events" rowspan="3">
+            <td id="has-events" rowspan="2">
                 <div id="details" style="width: 99%; height: 96%;">
                     <span id="title">Software Engineering</span> <span id="lecturer"><a>Course
                             Director <span id="location">Sigma</span>
@@ -58,7 +58,7 @@
             </td>
 
             <td id="no-events" rowspan="1"></td>
-            <td id="has-events" rowspan="3">
+            <td id="has-events" rowspan="2">
                 <div id="details" style="width: 99%; height: 96%;">
                     <span id="title">Data information Retrieval</span> <span id="lecturer"><a>Reda
                             Something</a></span> <span id="location">Sigma</span>
@@ -98,14 +98,14 @@
 
  		<tr>
             <td>12:00</td>
-            <td id="has-events" rowspan="3">
+            <td id="has-events" rowspan="2">
                 <div id="details" style="width: 99%; height: 96%;">
                     <span id="title">Data information Retrieval</span> <span id="lecturer"><a>Reda
                             Something</a></span> <span id="location">Sigma</span>
                 </div>
             </td>
 
-            <td id="has-events" rowspan="3">
+            <td id="has-events" rowspan="2">
                 <div id="details" style="width: 99%; height: 96%;">
                     <span id="title">Software Engineering</span> <span id="lecturer"><a>Course
                             Director <span id="location">Sigma</span>
@@ -147,7 +147,7 @@
             <td>14:00</td>
             <td id="no-events" rowspan="1"></td>
             <td id="no-events" rowspan="1"></td>
-            <td id="has-events" rowspan="3">
+            <td id="has-events" rowspan="2">
                 <div id="details" style="width: 99%; height: 96%;">
                     <span id="title">Data information Retrieval</span> <span id="lecturer"><a>Reda
                             Something</a></span> <span id="location">Sigma</span>
@@ -155,7 +155,7 @@
             </td>
 
             <td id="no-events" rowspan="1"></td>
-            <td id="has-events" rowspan="3">
+            <td id="has-events" rowspan="2">
                 <div id="details" style="width: 99%; height: 96%;">
                     <span id="title">Software Engineering</span> <span id="lecturer"><a>Course
                             Director <span id="location">Sigma</span>
@@ -192,28 +192,28 @@
 
         <tr>
             <td>16:00</td>
-            <td id="has-events" rowspan="3">
+            <td id="has-events" rowspan="2">
                 <div id="details" style="width: 99%; height: 96%;">
                     <span id="title">Data information Retrieval</span> <span id="lecturer"><a>Reda
                             Something</a></span> <span id="location">Sigma</span>
                 </div>
             </td>
 
-            <td id="has-events" rowspan="3">
+            <td id="has-events" rowspan="2">
                 <div id="details" style="width: 99%; height: 96%;">
                     <span id="title">Programming</span> <span id="lecturer"><a>James
                             Shuttleworth</a></span> <span id="location">Sigma</span>
                 </div>
             </td>
 
-            <td id="has-events" rowspan="3">
+            <td id="has-events" rowspan="2">
                 <div id="details" style="width: 99%; height: 96%;">
                     <span id="title">Programming</span> <span id="lecturer"><a>James
                             Shuttleworth</a></span> <span id="location">Sigma</span>
                 </div>
             </td>
 
-            <td id="has-events" rowspan="3">
+            <td id="has-events" rowspan="2">
                 <div id="details" style="width: 99%; height: 96%;">
                     <span id="title"><?php echo 'Software Engineering'; ?></span> <span id="lecturer"><a>Course
                             Director <span id="location">Sigma</span>
@@ -261,6 +261,21 @@
 	    </tbody>
 
 	</div>
+
+		<?php
+	$servername = "127.0.0.1";
+	$username = "root";
+	$password = "";
+
+	// Create connection
+	$conn = new mysqli($servername, $username, $password);
+
+	// Check connection
+	if ($conn->connect_error) {
+	    die("Connection failed: " . $conn->connect_error);
+	} 
+	echo "Connected successfully";
+	?>
 
 	<footer id="the_footer">
 			Copyright Matt&Michael 2015
