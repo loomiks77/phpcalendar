@@ -1,0 +1,102 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+h1{
+	font: bold 20px Tahoma;
+}
+h2{
+	font: bold 12px Tahoma;
+}
+header, section, footer, aside, nav, article, hgroup{
+	display:block;
+}
+body{
+	text-align:center;
+}
+table{
+	margin-bottom: 0;
+}
+th{
+	text-align: center;
+	background-color: whiteSmoke;
+	border: 0;
+	font: bold 12px Tahoma;
+
+}
+td{
+	height: 30px;
+	border: 0;
+	background-color: whiteSmoke;
+	//color: white;
+    cursor: pointer;
+    padding: 0;
+    border-radius: 4px;
+//  font: bold 12px Tahoma;
+
+}
+span{
+	display: block;
+    text-align: center;
+}
+span a{
+	color: white;		
+}
+#big_wrapper{
+
+}
+#top_header{
+	//background:yellow;
+	//border: 1px solid black;
+	padding: 20px;
+}
+#calendar_table{
+	margin-bottom: 0;
+}
+#has-events{
+	color: white;
+    cursor: pointer;
+    padding: 0;
+    border-radius: 4px;
+}
+#details{
+	height: 40px;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    float: left;
+    background-color: #08C;
+    border-left: 1px solid white;
+   // opacity: 0.8;
+}
+#no-events{
+
+}
+#title{
+	//font-weight: bold;
+	font: 16px Tahoma;
+	color: white;
+}
+#lecturer{
+	font: 12px Tahoma;
+	color: white;
+}
+#location{
+	font: 12px Tahoma;
+	color: white;
+}
+#the_footer{
+	clear:both;
+	text-align: center;
+	padding: 20px;
+	//border-top: 2px solid gray;
+	//font: bold 12px Tahoma;
+	position:absolute;
+    bottom:0;
+
+}
+#weeknames{
+	font: bold 16px Tahoma;
+	color: black;
+	padding: 5px;
+}
