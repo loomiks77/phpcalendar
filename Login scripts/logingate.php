@@ -1,9 +1,11 @@
 <?php
-include('login.php'); // Includes Login Script
+include('profile.php'); // Includes Login Script
 
-if(isset($_SESSION['login_user'])){
-header("location: profile.php");
+if (!isset($_SESSION['EXPIRES']) || $_SESSION['EXPIRES'] < time()+60) {
+    session_destroy();
+    $_SESSION = array();
 }
+$_SESSION['EXPIRES'] = time() + 60;
 ?>
 <!DOCTYPE html>
 <html>

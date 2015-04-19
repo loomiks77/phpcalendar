@@ -3,7 +3,12 @@
 $connection = mysql_connect("localhost", "root", "");
 // Selecting Database
 $db = mysql_select_db("company", $connection);
-session_start();// Starting Session
+session_start();
+if (!isset($_SESSION['EXPIRES']) || $_SESSION['EXPIRES'] < time()+60) {
+    session_destroy();
+    $_SESSION = array();
+}
+$_SESSION['EXPIRES'] = time() + 60;// Starting Session
 // Storing Session
 $user_check=$_SESSION['login_user'];
 // SQL Query To Fetch Complete Information Of User
