@@ -3,10 +3,10 @@
 	padding: 0px;
 }
 h1{
-	font: bold 20px Tahoma;
+	font: bold 20px helvetica;
 }
 h2{
-	font: bold 12px Tahoma;
+	font: bold 12px helvetica;
 }
 header, section, footer, aside, nav, article, hgroup{
 	display:block;
@@ -21,18 +21,18 @@ th{
 	text-align: center;
 	background-color: whiteSmoke;
 	border: 0;
-	font: bold 12px Tahoma;
+	font: bold 12px helvetica;
 
 }
 td{
-	height: 30px;
+	height: 40px;
 	border: 0;
 	background-color: whiteSmoke;
 	//color: white;
     cursor: pointer;
     padding: 0;
     border-radius: 4px;
-//  font: bold 12px Tahoma;
+//  font: bold 12px helvetica;
 
 }
 span{
@@ -74,15 +74,15 @@ span a{
 }
 #title{
 	//font-weight: bold;
-	font: 16px Tahoma;
+	font: 16px helvetica;
 	color: white;
 }
 #lecturer{
-	font: 14px Tahoma;
+	font: 14px helvetica;
 	color: white;
 }
 #location{
-	font: 12px Tahoma;
+	font: 12px helvetica;
 	color: white;
 }
 #the_footer{
@@ -90,13 +90,13 @@ span a{
 	text-align: center;
 	padding: 20px;
 	//border-top: 2px solid gray;
-	//font: bold 12px Tahoma;
+	//font: bold 12px helvetica;
 	position:absolute;
     bottom:0;
 
 }
 #weeknames{
-	font: bold 16px Tahoma;
+	font: bold 16px helvetica;
 	color: black;
 	padding: 5px;
 }

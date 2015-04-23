@@ -859,10 +859,6 @@
 	    </tbody>
 
 	</div>
-
-	<footer id="the_footer">
-			Copyright Matt&Michael 2015
-	</footer>
 </div>
 
 </body>

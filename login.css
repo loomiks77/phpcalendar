@@ -1,0 +1,48 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font: helvetica;
+}
+h1{
+	font: bold 18px helvetica;
+}
+h2{
+	font: bold 12px helvetica;
+}
+header, title{
+	display:block;
+	vertical-align: middle;
+	margin-left: auto;
+    margin-right: auto;
+    margin: 0 auto; 
+	width:250px;
+}
+form{
+	vertical-align: middle;
+	margin-left: auto;
+    margin-right: auto;
+    margin: 0 auto; 
+	width:250px;
+
+}
+#big_wrapper{
+    vertical-align: middle;
+    float: center;
+    border-left: 1px solid white;
+    margin-left: auto;
+    margin-right: auto;
+}
+#top_header{
+	//background:yellow;
+	//border: 1px solid black;
+	padding: 20px;
+}
+#form{
+	padding: 0;
+    border-radius: 4px;
+   	height: 30px;
+	border: 0;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+}

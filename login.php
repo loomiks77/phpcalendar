@@ -10,8 +10,8 @@
 	$myusername = $_POST['user'];
 	$mypassword = $_POST['pass'];
 	
-	$myusername = stripslashes($myusername);
-	$mypassword = stripslashes($mypassword);
+	$myusername = mysql_real_escape_string($myusername);
+	$mypassword = mysql_real_escape_string($mypassword);
 	
 	$query = "SELECT * FROM users WHERE Username='$myusername' and Password='$mypassword'";
 	$result = mysql_query($query);
